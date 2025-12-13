@@ -188,13 +188,13 @@
   max-width: 385px;
   text-align: start;
 }
-/* ====== TÍTULO ====== */
 .reservation__title {
-margin-top: 100px;
-padding-top: 100px;
-  margin-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
+text-align: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto 80px;
+
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
