@@ -10,3 +10,250 @@
   font-size: 16px;
   line-height: 20px;
 }
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  margin-top: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  margin-top: 30px;
+  list-style: none;
+  font-size: 16px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  max-width: 636px;
+  column-gap: 20px;
+  display: flex;
+  padding: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  position: absolute;
+  top: 252px;
+  left: 80px;
+  max-width: 709px;
+}
+.span-acent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  left: 80px;
+  position: absolute;
+  top: 424px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 3;
+  max-width: 683px;
+}
+
+.header__image {
+  position: absolute;
+  right: 5px;
+  top: 124px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.header__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+.adress {
+  align-self: self-end;
+}
+
+.recipes {
+  color: white;
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.recipes__title {
+  padding-top: 100px;
+  margin-left: 80px;
+  margin-bottom: 24px;
+  max-width: 580px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.recipes__subtitle {
+  margin-left: 80px;
+  margin-bottom: 80px;
+  max-width: 438px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 215px;
+}
+.video-item {
+  margin-right: 40px;
+}
+.recipes__iframe {
+  border: none;
+}
+.video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+.fieldset {
+
+  width: 425px;
+
+}
+.reservation__form{
+  display: flex;
+  flex-direction: column;
+
+}
+.form {
+  max-width: 385px;
+  text-align: start;
+}
+/* ====== TÍTULO ====== */
+.reservation__title {
+margin-top: 100px;
+padding-top: 100px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__input {
+  border-radius: 4px;
+  margin-bottom: 32px;
+  height: 60px;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form__input::placeholder {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.form__button {
+  height: 60px;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.form__button-submit:hover {
+  opacity: 0.7;
+}
+.form__button-submit:enabled {
+  background: #2f80ed;
+}
+
+
+.form__checkbox-input {
+  border-radius: 2px;
+
+  height: 20px;
+  display: flex;
+  align-self: center;
+  gap: 8px;
+}
+.form__checkbox-input:checked::after {
+  content: "✔";
+  background-color: #2f80ed;
+}
+
+.form__label {
+  padding-bottom: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
