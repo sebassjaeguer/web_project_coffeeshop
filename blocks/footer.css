@@ -1,5 +1,18 @@
 .footer {
   background-color: #0a2850;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.footer__circle {
+  background-color: #2f80ed;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  top: -128px;
+  left: -44px;
 }
 .footer__content {
   display: flex;
@@ -7,16 +20,13 @@
   padding-top: 60px;
   margin-right: 80px;
   margin-left: 80px;
+  z-index: 3;
 }
 .footer__logo {
   width: 105px;
   height: 39px;
 }
-.footer__social {
-}
 
-.footer__list {
-}
 .footer__social-heading {
   margin-bottom: 20px;
   text-align: end;
