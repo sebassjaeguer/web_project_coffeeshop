@@ -1,7 +1,7 @@
 .fieldset {
   width: 425px;
 }
-.reservation-form {
+.reservation__form {
   display: flex;
   flex-direction: column;
 }
