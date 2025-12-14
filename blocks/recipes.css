@@ -32,13 +32,13 @@
   justify-content: center;
   padding-bottom: 215px;
 }
-.video-item {
+.recipes__video-item {
   margin-right: 40px;
 }
 .recipes__iframe {
   border: none;
 }
-.video-caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
   font-family: "Noto Serif";

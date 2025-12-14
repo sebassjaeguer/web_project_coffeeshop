@@ -20,7 +20,7 @@
   left: 80px;
   max-width: 709px;
 }
-.span-acent {
+.header__span-acent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -68,6 +68,6 @@
   line-height: 20px;
   color: #838383;
 }
-.adress {
+.header__adress {
   align-self: self-end;
 }
