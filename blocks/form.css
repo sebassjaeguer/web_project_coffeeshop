@@ -1,3 +1,7 @@
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+}
 .form__input {
   border-radius: 4px;
   margin-bottom: 32px;
